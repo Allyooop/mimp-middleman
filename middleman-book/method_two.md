@@ -65,14 +65,14 @@ your /layouts/layout.erb file should look something like this:
     
     <!-- Use title if it's in the page YAML frontmatter -->
     <title><%= current_page.data.title || "The Middleman" %></title>
-    
+    <%= javascript_include_tag  "jquery" %>
     <%= stylesheet_link_tag "main" %>
   </head>
   
   <body class="<%= page_classes %>">
     <%= yield %>
     
-    <%= javascript_include_tag  "jquery" %>
+
     <%= javascript_include_tag  "bootstrap" %>
     <%= javascript_include_tag  "all" %>
   </body>

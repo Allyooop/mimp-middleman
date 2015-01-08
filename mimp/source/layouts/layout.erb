@@ -13,6 +13,9 @@
   </head>
   
   <body class="<%= page_classes %>">
+    <%= partial "/layouts/navbar" %>
+    
+    
     <%= yield %>
     
     <%= javascript_include_tag  "jquery" %>
