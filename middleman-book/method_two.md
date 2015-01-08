@@ -21,6 +21,15 @@ Import the bootstrap Scss into your Scss file above your variables
 @import "bootstrap";
 ```
 
+> If you are using a theme do this:
+>```
+@import "bootstrap-sprockets";
+@import "_variables.scss";
+@import "bootstrap";
+@import "_bootswatch.scss";`
+```
+> We include the ```_variables.scss``` file above bootstrap so that it uses the settings found in there.
+
 Ensure relative assets if looking at your file every once in a while
 ```ruby
 # Build-specific configuration
