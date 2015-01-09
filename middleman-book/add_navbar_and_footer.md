@@ -18,11 +18,16 @@ Inside it, let's create a very basic navbar using Bootstrap's UI framework.
 
 ```html
 <nav class="navbar navbar-default">
-  <div class="container-fluid">
+  <div class="container">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#">
-        <img alt="Brand" src="...">
-      </a>
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+       <a class="navbar-brand" href="#">Medical Imaging &amp; Medical Physics</a>
     </div>
   </div>
 </nav>
@@ -35,3 +40,4 @@ Let's include that in our layout.erb file, just above the yield statement.
 ```
 
 The /layouts/ just tells Middleman which folder the partial is in starting from the root of the source file. If you want, you can create a seperate partials or views files to place it in. If you create a seperate file for the partials called partials then your erb would look like ```<%= partial "/partials/navbar" %>```.
+
