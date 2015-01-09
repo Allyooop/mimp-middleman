@@ -1,3 +1,5 @@
+# Adding partials to our middleman site
+
 In this section lets add some "partials" to our website.
 
 A partial is a ruby name for an erb template that creates a small bit of functionality that can be included or used repeatedly.
@@ -40,4 +42,27 @@ Let's include that in our layout.erb file, just above the yield statement.
 ```
 
 The /layouts/ just tells Middleman which folder the partial is in starting from the root of the source file. If you want, you can create a seperate partials or views files to place it in. If you create a seperate file for the partials called partials then your erb would look like ```<%= partial "/partials/navbar" %>```.
+
+## Create a footer partial
+
+Much like the previous section, adding a footer partial consists of:
+
+1. creating the partial file
+2. including said partial using the partial erb helper
+
+Let's follow those steps now.
+
+1. Create a ```_footer.html.erb``` file in your layouts directory.
+
+2. Create a containter div
+
+3. Add a row div
+
+4. 
+
+Fill the file with our boostrap footer.Fill
+
+```erb
+<%= partial "/layouts/footer" %>
+```
 
