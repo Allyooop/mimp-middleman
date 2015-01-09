@@ -14,7 +14,7 @@ $gray:                   #666;
 $gray-light:             #bbb;
 $gray-lighter:           lighten($gray-base, 93.5%); // #eee
 
-$brand-primary:         #2196F3;
+$brand-primary:         #03A9F4;
 $brand-success:         #4CAF50;
 $brand-info:            #9C27B0;
 $brand-warning:         #ff9800;
@@ -374,7 +374,7 @@ $navbar-default-brand-hover-bg:            transparent;
 
 // Navbar toggle
 $navbar-default-toggle-hover-bg:           transparent;
-$navbar-default-toggle-icon-bar-bg:        rgba(0,0,0,0.5);
+$navbar-default-toggle-icon-bar-bg:        $gray-dark;
 $navbar-default-toggle-border-color:       transparent;
 
 
@@ -400,7 +400,7 @@ $navbar-inverse-brand-hover-bg:             transparent;
 
 // Inverted navbar toggle\
 $navbar-inverse-toggle-hover-bg:            transparent;
-$navbar-inverse-toggle-icon-bar-bg:         rgba(0,0,0,0.5);
+$navbar-inverse-toggle-icon-bar-bg:         $gray-dark;
 $navbar-inverse-toggle-border-color:        transparent;
 
 
