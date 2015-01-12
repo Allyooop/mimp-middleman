@@ -48,8 +48,8 @@
 # end
 # 
 
-data.services.service.each do |name|
-  proxy "/service/#{name.slug}.html", "/services/template.html", :locals => { :name => name }, :ignore => true
+data.services.service.each do |service|
+  proxy "/services/#{service.slug}.html", "/services/template.html", :locals => { :service => service }, :ignore => true
 end
 
 set :css_dir, 'stylesheets'

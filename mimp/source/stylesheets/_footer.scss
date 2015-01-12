@@ -1,0 +1,17 @@
+.main-footer {
+  
+  background-color: $brand-grey;
+  color: #ffffff;
+  padding: 40px;
+  margin-top: 35px;
+  
+  h3 {
+    color: #ffffff;
+  }
+}
+
+.sub-footer {
+  
+      background-color: darken($brand-grey, 20%);
+      color: #ffffff;
+}
