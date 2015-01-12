@@ -1,5 +1,6 @@
 @import "bootstrap-sprockets";
-@import "_variables.scss";
+@import "variables";
 @import "bootstrap";
-@import "_bootswatch.scss";
-@import "_navbar.scss";
+@import "bootswatch";
+@import "navbar";
+@import "sections";

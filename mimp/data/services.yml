@@ -1,0 +1,10 @@
+service:
+ - name: "Medical Imaging"
+   slug: medical-imaging
+   description: ""
+   banner-image: ""
+ 
+ - name: "Medical physics"
+   slug: medical-physics
+   description: ""
+   banner-image: ""

@@ -47,7 +47,10 @@
 #   end
 # end
 # 
-sprockets.import_asset 'bootstrap'
+
+data.services.service.each do |name|
+  proxy "/service/#{name.slug}.html", "/services/template.html", :locals => { :name => name }, :ignore => true
+end
 
 set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'

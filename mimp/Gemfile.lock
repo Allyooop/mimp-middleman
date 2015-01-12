@@ -114,6 +114,7 @@ GEM
     tilt (1.4.1)
     timers (4.0.1)
       hitimes
+    turbolinks (0.5.1)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
     uber (0.0.12)
@@ -128,5 +129,6 @@ DEPENDENCIES
   bootstrap-sass
   middleman (~> 3.3.7)
   middleman-livereload (~> 3.1.0)
+  turbolinks
   tzinfo-data
   wdm (~> 0.1.0)
