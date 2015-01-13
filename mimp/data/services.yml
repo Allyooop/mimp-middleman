@@ -1,8 +1,12 @@
 service:
- - name: "Medical Imaging"
-   slug: medical-imaging
-   description: ""
+ - name: "Radiosurgery Physics"
+   slug: radiosurgery-physics
+   summary: "The section provides the vital quality assurance and calibration of the ‘Perfexion’ Gamma knife unit at the Royal Hallamshire Hospital, as well as ensuring that each patient treatment is carried out with precision and delivers an optimal radiation dose to the target tissues in the brain."
+   one-liner: "Radiosurgery Physics provides the scientific support to Gamma Knife Radiosurgery treatments at the National Centre for Stereotactic Radiosurgery"
    banner-image: ""
+   selling-point: "Collectively our Radiosurgery physics team have close to 100 years of experience in Gamma Knife Radiosurgery.  They have a reputation for attention to detail, which equips them well to ensure the accuracy of;  the treatment machine; the imaging scanners used to scan patients; and the radiation dose planning computers used to construct the conformal plan which delivers maximum radiation to the abnormality while sparing adjacent normal tissue."
+   contact: "GammaKnife@sth.nhs.uk"
+   service-lead: "Mr Lee Walton"
  
  - name: "Medical physics"
    slug: medical-physics
