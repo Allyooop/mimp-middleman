@@ -6,9 +6,102 @@
   <div class="container">
     <div class="row">
       <h1><%= service['name'] %></h1>
-      <p><%= service['description'] %></p>
     </div>
   </div>
 </section>
 
+<div class="container">
+  <ol class="breadcrumb">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Services</a></li>
+    <li class="active"><%= service['name'] %></li>
+  </ol>
+</div>
 
+<div class="container">
+  <div class="row">
+    <div class="col-md-8">
+      <article class="service-main">
+        <div class="well">
+          <p class="lead"><%= service['one-liner'] %></p>
+          <p><%= service['description'] %></p>
+          <p><%= service['selling-points'] %></p>
+        </div>
+      </article>
+      
+       <section class="well">
+        <h5>Our team</h5>
+         <p class="lead"></p>
+      </section>
+    </div>
+    
+    <div class="col-md-4">
+      <section class="well">
+        <h5>Contact us</h5>
+        
+        <p><%= service['address'] %></p>
+         
+         <% service['contact-details'].each do |x| %>
+            <a href="mailto:<%= x['email']%>"><%= x['email']%></a>
+            <a href="tel:<%= x['phone-number']%>"><%= x['phone-number']%></a>
+            <% end %>
+      </section>
+      
+       <section class="well">
+        <h5>Treatments &amp; conditions</h5>
+      </section>
+      
+       <section class="well">
+        <h5>Useful information</h5>
+
+      
+      
+      </section>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="col-md-12">
+      <h5>Related Services</h5>
+      <section class="">
+        <div class="row">
+          <div class="col-md-3 col-sm-3">
+            <div class="well">
+              <a href="#">
+              <img>
+              <h4>Title of service</h4>
+            </a>
+            </div>
+          </div>
+          
+          <div class="col-md-3 col-sm-3">
+            <div class="well">
+            <a href="#">
+              <img>
+              <h4>Title of service</h4>
+            </a>
+          </div>
+          </div>
+          
+          <div class="col-md-3 col-sm-3">
+            <div class="well">
+            <a href="#">
+              <img>
+              <h4>Title of service</h4>
+            </a>
+          </div>
+            </div>
+          
+          <div class="col-md-3 col-sm-3">
+            <div class="well">
+            <a href="#">
+              <img>
+              <h4>Title of service</h4>
+            </a>
+          </div>
+            </div>
+        </div>      
+      </section>
+    </div>
+  </div>
+</div>
