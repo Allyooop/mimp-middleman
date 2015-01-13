@@ -1,0 +1,60 @@
+department:
+  - name: "Medical Physics and Clinical Engineering"
+    slug: medical-physics
+    one-liner: ""
+    services:
+      - service-one: "etc"
+    staff:
+      - Department-Head: ""
+        Section-Head: ""
+    treatments:
+      - treatment-one: ""
+    contact:
+      - address: ""
+        phone: ""
+        contact-name: ""
+        contact-email: ""
+    top-services:
+      - one: ""
+        two: ""
+        three: ""
+
+  - name: "Radiology"
+    slug: radiology
+    one-liner: ""
+    services:
+      - service-one: "etc"
+    staff:
+      - Department-Head: ""
+        Section-Head: ""
+    treatments:
+      - treatment-one: ""
+    contact:
+      - address: ""
+        phone: ""
+        contact-name: ""
+        contact-email: ""
+    top-services:
+      - one: ""
+        two: ""
+        three: ""
+
+  - name: "Audiological Science"
+    slug: audiological-science
+    one-liner: ""
+    services:
+      - service-one: "etc"
+    staff:
+      - Department-Head: ""
+        Section-Head: ""
+    treatments:
+      - treatment-one: ""
+    contact:
+      - address: ""
+        phone: ""
+        contact-name: ""
+        contact-email: ""
+    top-services:
+      - one: ""
+        two: ""
+        three: ""
