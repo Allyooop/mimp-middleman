@@ -22,41 +22,69 @@
   <div class="row">
     <div class="col-md-8">
       <article class="service-main">
-        <div class="well">
+        <div class="well branded-well">
           <p class="lead"><%= service['one-liner'] %></p>
           <p><%= service['description'] %></p>
           <p><%= service['selling-points'] %></p>
         </div>
-      </article>
+      
       
        <section class="well">
-        <h5>Our team</h5>
-         <p class="lead"></p>
+        <h4>Our team</h4>
+         <p>The <%= service['name'] %> service is run by a multi-disciplinary team based at Sheffield Teaching Hospitals, led by
+         <% service['service-team'].each do |x| %>
+         <%= x['team-head'] %>, <%= x['team-head-role']%>
+         <% end %></p>
+         <a href="/teams/<%= service['slug'] %>" class="btn btn-primary" alt="link to <%= service['name'] %>'s team profile page">Meet the team</a>
       </section>
+        </article>
     </div>
     
     <div class="col-md-4">
       <section class="well">
-        <h5>Contact us</h5>
+        <h4>Contact us</h4>
         
-        <p><%= service['address'] %></p>
-         
-         <% service['contact-details'].each do |x| %>
-            <a href="mailto:<%= x['email']%>"><%= x['email']%></a>
-            <a href="tel:<%= x['phone-number']%>"><%= x['phone-number']%></a>
+        <address><%= service['address'] %></address>
+            <% service['contact-details'].each do |x| %>
+            <a href="mailto:<%= x['email']%>" class="btn btn-warning" alt="<%= service['name'] %>'s email address">Email us</a>
+            <a href="tel:<%= x['phone-number']%>" class="btn btn-link" alt="<%= service['name'] %>'s telephone number">Call us</a>
             <% end %>
       </section>
       
        <section class="well">
-        <h5>Treatments &amp; conditions</h5>
+        <h4>Treatments &amp; conditions</h4>
+         
+         <ul class="list-unstyled">
+           <% service['treatments'].each do |x| %>
+           <li><a href="<%= x['treatment-url'] %>" class="btn btn-link btn-sm" alt="Link to individual treatment page for <%= x['treatment-name'] %>"><%= x['treatment-name'] %></a>
+           </li>
+           <% end %>
+         </ul>
+           
+          <ul class="list-unstyled"> 
+          <% service['conditions'].each do |x| %>
+           <li><a href="<%= x['conditions-url'] %>" class="btn btn-link btn-sm" alt="Link to individual treatment page for <%= x['conditions-name'] %>"><%= x['conditions-name'] %></a></li>
+           <% end %>
+         </ul>
+         
       </section>
       
        <section class="well">
-        <h5>Useful information</h5>
+        <h4>Services Provided</h4>
 
-      
-      
+         <ul class="list-unstyled list-service">
+           <% service['services-provided'].each do |x| %>
+           <li><%= x['service-name'] %> <%= x['service-description'] %></li>
+           <% end %>
+         </ul>
+         
       </section>
+      
+       <section class="well">
+        <h4>Useful information</h4>
+      </section>
+      
+      
     </div>
   </div>
   

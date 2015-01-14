@@ -13,8 +13,11 @@
   
   .well {
     font-size: 18px;
-    border-top: 20px solid $brand-primary
       
   }
   
+}
+
+.branded-well {
+  border-top: 20px solid $brand-primary
 }
