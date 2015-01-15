@@ -2,8 +2,8 @@ department:
   - name: "Medical Physics and Clinical Engineering"
     slug: medical-physics-clinical-engineering
     one-liner: "Medical physics and clinical engineering staff apply their scientific and engineering skills to provide innovative healthcare solutions"
-    summary: ""
-    description: ""
+    summary: "Medical Physics and Clinical Engineering at Sheffield Teaching Hospitals is one of the largest departments in the country. Our expert teams apply their knowledge of the physical sciences and engineering to the development and quality assurance of many diagnostic tests, treatment techniques and associated medical equipment which is widely used in hospitals in Sheffield and beyond"
+    description: "The department, which maintains close links with the University of Sheffield’s Medical Physics Group, is heavily involved in research, too. Researchers from the department are currently at the helm of a European-wide initiative which is using in silico medicine, or computer stimulated technology to understand how disease processes work. The department is also home to the nationally acclaimed ‘Devices for Dignity’ Healthcare Technology Co-operative, which brings the NHS, industry and universities together to work with patients as partners to develop technologies which help to improve dignity and independence for people living with long-term conditions"
     selling-points: ""
     services:
       - service-name: "Audiological Science"
@@ -31,8 +31,8 @@ department:
         service-url: 3d-lab
         service-desc: ""
     staff:
-      - Department-head: "Professor Wendy Tindale, OBE"
-        Department-head-role: "Scientific Director"
+      - department-head: "Professor Wendy Tindale, OBE"
+        department-head-role: "Scientific Director"
         Section-head: "Mr Lee Walton"
         Section-head-role: "Department Lead Scientist"
         department-team-url: /teams/medical-physics
@@ -57,10 +57,10 @@ department:
         s-url: ""
         s-description: ""
     case-studies:
-      - cs-title: ""
-        cs-desc: ""
+      - cs-title: "Finalists in the Health Service Journal Awards "
+        cs-desc: "Over many years our teams have been recognised for their innovation: our scientific computing and informatics  team are currently finalists in the Health Service Journal Awards (Improving Care with Technology category) for their innovative Electronic Check-in & Process Workflow system for outpatient clinics. They are also partners in a major project to identify  the lifestyle and environmental factors that predispose individuals to the development of dementia"
         cs-url: ""
-        cs-img: ""
+        cs-img: "http://www.sth.nhs.uk/clientfiles/Image/IMG_0108%20SH%20L%20res.JPG"
       - cs-title: ""
         cs-desc: ""
         cs-url: ""
@@ -99,8 +99,8 @@ department:
         service-url: ""
         service-desc: ""
     staff:
-      - Department-head: ""
-        Department-head-role: ""
+      - department-head: ""
+        department-head-role: ""
         Section-head: ""
         Section-head-role: ""
         department-team-url: /teams/radiology
@@ -166,8 +166,8 @@ department:
         service-url: ""
         service-desc: ""
     staff:
-      - Department-head: ""
-        Department-head-role: ""
+      - department-head: ""
+        department-head-role: ""
         Section-head: ""
         Section-head-role: ""
         department-team-url: /teams/audiological-science

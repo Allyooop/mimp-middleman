@@ -21,3 +21,17 @@
 .branded-well {
   border-top: 20px solid $brand-primary
 }
+
+.case-study-unit {
+  
+  padding-top: 10px;
+  
+  img {
+    max-width: 250px;
+  }
+  
+  h5 {
+    color: $brand-primary;
+  }
+  
+}
