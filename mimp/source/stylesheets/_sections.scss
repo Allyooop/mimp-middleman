@@ -19,7 +19,9 @@
 }
 
 .branded-well {
-  border-top: 20px solid $brand-primary
+  border-top: 20px solid $brand-primary;
+  border-left: 0;
+  border-right: 0;
 }
 
 .case-study-unit {
@@ -28,6 +30,7 @@
   
   img {
     max-width: 250px;
+    padding-left: 10px;
   }
   
   h5 {
