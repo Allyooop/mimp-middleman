@@ -1,0 +1,135 @@
+---
+
+---
+
+<section class="service-header <%= page_classes %>">
+  <div class="container">
+    <div class="row">
+      <h1><%= department['name'] %></h1>
+    </div>
+  </div>
+</section>
+
+<div class="container">
+  <ol class="breadcrumb">
+    <li><a href="#">Home</a></li>
+    <li><a href="/departments">departments</a></li>
+    <li class="active"><%= department['name'] %></li>
+  </ol>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-8">
+      <article class="service-main">
+        <div class="well branded-well">
+          <p class="lead"><%= department['one-liner'] %></p>
+          <p><%= department['description'] %></p>
+          <p><%= department['selling-points'] %></p>
+        </div>
+      
+      
+       <section class="well">
+        <h4>Our team</h4>
+         <p>The <%= department['name'] %> service is run by a multi-disciplinary team based at Sheffield Teaching Hospitals, led by
+         <% department['service-team'].each do |x| %>
+         <%= x['team-head'] %>, <%= x['team-head-role']%>
+         <% end %></p>
+         <a href="/teams/<%= service['slug'] %>" class="btn btn-primary" alt="link to <%= service['name'] %>'s team profile page">Meet the team</a>
+      </section>
+        </article>
+    </div>
+    
+    <div class="col-md-4">
+      <section class="well">
+        <h4>Contact us</h4>
+        
+        <address><%= department['address'] %></address>
+            <% department['contact-details'].each do |x| %>
+            <a href="mailto:<%= x['email']%>" class="btn btn-warning" alt="<%= department['name'] %>'s email address">Email us</a>
+            <a href="tel:<%= x['phone-number']%>" class="btn btn-link" alt="<%= department['name'] %>'s telephone number">Call us</a>
+            <% end %>
+      </section>
+      
+       <section class="well">
+        <h4>Treatments &amp; conditions</h4>
+         
+         <ul class="list-unstyled">
+           <% department['treatments'].each do |x| %>
+           <li><a href="<%= x['treatment-url'] %>" class="btn btn-link btn-sm" alt="Link to individual treatment page for <%= x['treatment-name'] %>"><%= x['treatment-name'] %></a>
+           </li>
+           <% end %>
+         </ul>
+           
+          <ul class="list-unstyled"> 
+          <% department['conditions'].each do |x| %>
+           <li><a href="<%= x['conditions-url'] %>" class="btn btn-link btn-sm" alt="Link to individual treatment page for <%= x['conditions-name'] %>"><%= x['conditions-name'] %></a></li>
+           <% end %>
+         </ul>
+         
+      </section>
+      
+       <section class="well">
+        <h4>departments Provided</h4>
+
+         <ul class="list-unstyled list-service">
+           <% department['services-provided'].each do |x| %>
+           <li><%= x['department-name'] %> <%= x['service-description'] %></li>
+           <% end %>
+         </ul>
+         
+      </section>
+      
+       <section class="well">
+        <h4>Useful information</h4>
+      </section>
+      
+      
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="col-md-12">
+      <h5>Related departments &amp; Services</h5>
+      <section class="">
+        <div class="row">
+          <div class="col-md-3 col-sm-3">
+            <div class="well">
+              <a href="#">
+              <img>
+              <h4>Title of service</h4>
+            </a>
+            </div>
+          </div>
+          
+          <div class="col-md-3 col-sm-3">
+            <div class="well">
+            <a href="#">
+              <img>
+              <h4>Title of service</h4>
+            </a>
+          </div>
+          </div>
+          
+          <div class="col-md-3 col-sm-3">
+            <div class="well">
+            <a href="#">
+              <img>
+              <h4>Title of service</h4>
+            </a>
+          </div>
+            </div>
+          
+          <div class="col-md-3 col-sm-3">
+            <div class="well">
+            <a href="#">
+              <img>
+              <h4>Title of service</h4>
+            </a>
+          </div>
+            </div>
+        </div>      
+      </section>
+    </div>
+  </div>
+</div>

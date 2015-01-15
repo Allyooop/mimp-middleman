@@ -7,11 +7,22 @@
   
   h3 {
     color: #ffffff;
+    font-size: 24px;
   }
+  
+  a {
+    color: #ffffff;
+    text-decoration: underline;
+  }
+  
+  .btn {
+     color: $gray;
+     text-decoration: none;
+   }
 }
 
 .sub-footer {
-  
       background-color: darken($brand-grey, 20%);
       color: #ffffff;
+      padding-top: 5px;
 }
