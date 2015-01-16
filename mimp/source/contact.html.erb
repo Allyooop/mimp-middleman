@@ -1,0 +1,102 @@
+---
+title: Contact us - Medical Imaging &amp; Medical Physics
+---
+
+<%= javascript_include_tag "email" %>
+
+<section class="<%= page_classes %>">
+  <div class="container">
+    <div class="row">
+        <h1 class="brand-h1">Contact</h1>
+      </div>
+  </div>
+</section>
+
+<div class="container">
+  <ol class="breadcrumb">
+    <li><a href="#">Home</a></li>
+    <li class="active">Contact</li>
+  </ol>
+</div>
+
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <section class="well branded-well">
+          <!-- Needs to be within a container or row div -->
+            
+          
+          <div class="row">
+            <%= partial 'partials/contact_form' %>
+          </div>
+        
+        </section>
+      </div>
+      
+      <div class="col-md-4">
+        <section class="well">
+          <h4>Contact Information</h4>
+          
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th></th>
+                      <th>Email</th>
+                      <th>Telephone</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">Patient Information</th>
+                      <td><a href="">Email us</a> </td>
+                      <td><a href="">0114</a></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Training Information</th>
+                      <td><a href="">Email us</a> </td>
+                      <td><a href="">0114</a></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Career Information</th>
+                      <td><a href="">Email us</a> </td>
+                      <td><a href="">0114</a></td>
+                    </tr>
+                  </tbody>
+                </table>
+          
+          <div class="btn-group">
+              <a type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                Services &amp; Departments <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+              </ul>
+            </div>
+          
+        </section>
+        
+        
+        
+        <section class="well">
+          <h4>Address</h4>
+          <address>
+            <header>Royal Hallamshire Hospital</header>
+            <p>The rest of the address</p>
+          </address>
+        </section>
+      </div>
+      
+    </div>
+  </div>
+
+
+<%= partial 'partials/hospitals' %>
+
+
+
+
+</section>

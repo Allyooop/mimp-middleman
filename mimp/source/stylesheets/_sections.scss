@@ -38,3 +38,31 @@
   }
   
 }
+
+.hospitals {
+  
+  img {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .col-md-2 {
+    width: 20%;
+    
+    @media screen and (max-width: $screen-sm){
+      width: 50%;
+    }
+    
+    @media screen and (max-width: $screen-xs){
+      width: 100%;
+    }
+     
+  }
+  
+}
+
+#contact_form {
+  
+  margin-top: 35px;
+  
+}
