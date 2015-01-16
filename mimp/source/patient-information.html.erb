@@ -1,0 +1,102 @@
+---
+title: Patient Information
+---
+
+<section class="patient-header <%= page_classes %>">
+  <div class="container">
+    <div class="row">
+      <h1 id="top"><%= current_page.data.title %></h1>
+    </div>
+  </div>
+</section>
+
+<div class="container">
+  <ol class="breadcrumb">
+    <li><a href="#">Home</a></li>
+    <li class="active"><%= current_page.data.title %></li>
+  </ol>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-8">
+      <div class="patient-main">
+        <article class="well branded-well">
+          <p class="lead">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+        </article>
+        
+        <% data.patient.questions.each do |x| %>
+        <article class="well question">
+          <header>
+           <h3 id="question-<%= x.id %>"><%= x.question %></h3>
+          </header>
+          <section>
+             <p><%= x.answer %></p>
+             <a href="#top">Back to the top</a>
+          </section>
+        </article>
+        <% end %>
+        
+      </div>
+    </div>
+    
+    <div class="col-md-4">
+      
+      <section class="well">
+        <h4>Questions</h4>
+        <ul class="list-unstyled">
+          <% data.patient.questions.each do |x| %>
+          <li><a href="#question-<%= x.id %>"><%= x.question %></a></li>
+        <% end %>
+        </ul>
+      </section>
+      
+      <section class="well">
+        <h4>Our Patient Services Team</h4>
+        <p>Our Patient Service Team provides a point of contact for any concerns or questions. If you are unsure who to talk to, our Paitent Service Team will always be willing to help!</p>
+        <p>The Patient Services Team can be contacted Monday to Friday from 8.30am until 5.00pm. The team can be contacted in the following ways:</p>
+        <ul>
+          <li>Telephone on 0114 271 2400</li>
+          <li>Via email on <a href="mailto:PST@sth.nhs.uk">PST@sth.nhs.uk</a></li>
+          <li>In person in the Patient Partnership Department on B Floor, Royal Hallamshire Hospital and the Huntsman main entrance on C Floor at the Northern General Hospital</li>
+        </ul>
+      </section>
+      
+      <section class="well">
+        <h4>Our Departments &amp; Services</h4>
+        <p>Locate the dedicated department and service pages through our <a href="departments-services.html" alt="link to the department and service A-Z" class="">A-Z page</a> or the directory below:</p>
+        <%= partial 'partials/components/btn_departments' %>
+        <%= partial 'partials/components/btn_services' %>
+        
+      </section>
+      
+      <section class="well">
+        <h4>Treatment &amp; Conditions</h4>
+        <p>Search our <a>dedicated treatment and conditions A-Z page</a> or find a specific page through our directory below:</p>
+        <%= partial 'partials/components/btn_treatments' %>
+        <%= partial 'partials/components/btn_conditions' %>
+      </section>
+      
+      <section class="well">
+        <h4>Contact Details</h4>
+        <%= partial 'partials/components/contact_info' %>
+      </section>
+      
+      <section class="well">
+        <h4>Useful Links &amp; Services</h4>
+        <ul class="list-unstyled">
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+        </ul>
+      </section>
+      
+
+      
+      
+    </div>
+  </div>
+</div>

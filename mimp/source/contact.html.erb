@@ -27,7 +27,7 @@ title: Contact us - Medical Imaging &amp; Medical Physics
             
           
           <div class="row">
-            <%= partial 'partials/contact_form' %>
+            <%= partial 'partials/components/contact_form' %>
           </div>
         
         </section>
@@ -35,35 +35,12 @@ title: Contact us - Medical Imaging &amp; Medical Physics
       
       <div class="col-md-4">
         <section class="well">
-          <h4>Contact Information</h4>
           
-                <table class="table">
-                  <thead>
-                    <tr>
-                      <th></th>
-                      <th>Email</th>
-                      <th>Telephone</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <th scope="row">Patient Information</th>
-                      <td><a href="">Email us</a> </td>
-                      <td><a href="">0114</a></td>
-                    </tr>
-                    <tr>
-                      <th scope="row">Training Information</th>
-                      <td><a href="">Email us</a> </td>
-                      <td><a href="">0114</a></td>
-                    </tr>
-                    <tr>
-                      <th scope="row">Career Information</th>
-                      <td><a href="">Email us</a> </td>
-                      <td><a href="">0114</a></td>
-                    </tr>
-                  </tbody>
-                </table>
+         <h4>Contact Information</h4>
           
+          <%= partial 'partials/components/contact_info' %>
+          
+                    
           <div class="btn-group">
               <a type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
                 Services &amp; Departments <span class="caret"></span>
@@ -74,9 +51,7 @@ title: Contact us - Medical Imaging &amp; Medical Physics
                 <li><a href="#">Something else here</a></li>
               </ul>
             </div>
-          
         </section>
-        
         
         
         <section class="well">
@@ -91,9 +66,9 @@ title: Contact us - Medical Imaging &amp; Medical Physics
     </div>
   </div>
 
-  <%= partial 'partials/map' %>
+  <%= partial 'partials/components/map' %>
 
-  <%= partial 'partials/hospitals' %>
+  <%= partial 'partials/components/hospitals' %>
 
 
 

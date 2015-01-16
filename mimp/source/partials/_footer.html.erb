@@ -37,29 +37,9 @@
           <h3>Departments &amp; Services</h3>
           <p>Use the buttons below to locate the department or service you require:</p>
           <!-- Services button -->
-            <div class="btn-group">
-              <a type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                Services <span class="caret"></span>
-              </a>
-              <ul class="dropdown-menu" role="menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-              </ul>
-            </div>
-          
-            <!-- Departments button -->
-            <div class="btn-group">
-              <a type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                Departments <span class="caret"></span>
-              </a>
-              <ul class="dropdown-menu" role="menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-              </ul>
-            </div>
-          
+          <%= partial 'partials/components/btn_services' %>
+          <!-- Departments button -->
+          <%= partial 'partials/components/btn_departments' %>
         </div>
       
       </div>
