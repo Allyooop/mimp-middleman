@@ -47,13 +47,10 @@
   }
   
   .col-md-2 {
+    
     width: 20%;
     
     @media screen and (max-width: $screen-sm){
-      width: 50%;
-    }
-    
-    @media screen and (max-width: $screen-xs){
       width: 100%;
     }
      
