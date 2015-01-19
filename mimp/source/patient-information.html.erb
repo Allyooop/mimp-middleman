@@ -26,7 +26,7 @@ title: Patient Information
           <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
         </article>
         
-        <% data.patient.questions.each do |x| %>
+        <% data.patients.questions.each do |x| %>
         <article class="well question">
           <header>
            <h3 id="question-<%= x.id %>"><%= x.question %></h3>
@@ -46,7 +46,7 @@ title: Patient Information
       <section class="well">
         <h4>Questions</h4>
         <ul class="list-unstyled">
-          <% data.patient.questions.each do |x| %>
+          <% data.patients.questions.each do |x| %>
           <li><a href="#question-<%= x.id %>"><%= x.question %></a></li>
         <% end %>
         </ul>
@@ -99,4 +99,52 @@ title: Patient Information
       
     </div>
   </div>
+  
+  <div class="row">
+    <div class="col-md-12">
+      <h5>Related pages</h5>
+      <section class="">
+        <div class="row">
+          <div class="col-md-3 col-sm-3">
+            <div class="well">
+              <a href="#">
+              <img>
+              <h4>A-Z of Treatments &amp; Conditions</h4>
+            </a>
+            </div>
+          </div>
+          
+          <div class="col-md-3 col-sm-3">
+            <div class="well">
+            <a href="#">
+              <img>
+              <h4>Contact Information</h4>
+            </a>
+          </div>
+          </div>
+          
+          <div class="col-md-3 col-sm-3">
+            <div class="well">
+            <a href="#">
+              <img>
+              <h4>Meet our teams</h4>
+            </a>
+          </div>
+            </div>
+          
+          <div class="col-md-3 col-sm-3">
+            <div class="well">
+            <a href="#">
+              <img>
+              <h4>A-Z of Departments &amp; Services</h4>
+            </a>
+          </div>
+            </div>
+        </div>      
+      </section>
+    </div>
+  </div>
+  
+  
+  
 </div>

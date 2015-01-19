@@ -1,0 +1,29 @@
+pathway:
+ - title: "iRefer Service"
+   body: "The iRefer service provides clinical guidelines to assist in making the best use of clinical radiology. Please click the button below to open iRefer via the RCR website - please note the site opens in a new window and is provided by the Royal College of Radiologists."
+   link: "<a href='link' class='btn btn-default'>Access the iRefer Service</a>"
+   id: 1
+ - title: "X-Rays"
+   body: "We operate a walk-in service (no appointment required, just a filled in GP referral card) for routine x-ray investigations. The X-Ray service is open Monday - Friday (excluding public holidays) 8am - 6pm at the Royal Hallamshire and Northern General Hospitals. Patients should bring with them a fully completed GP request card.  Instructions on how to find the departments are included on the request card." 
+   link: "<a href='link' class='btn btn-default'>Order GP Request Cards</a>"
+   id: 2
+ - title: "CT, MRI, Ultrasound scans & Fluoroscopy examinations (Barium studies etc.)"
+   body: "In order to help us provide an efficient service to your patients please <strong>fax</strong> all requests to <address>Radiology Call Centre, C Floor, Hallamshire Hospital Glossop Road , Sheffield S10 2JF, Fax: 0114 271 3766</address>.  Alternatively please send them by post to the postal address."
+   link: ""
+   id: 3
+ - title: "Breast imaging"
+   body: "There is no direct access for symptomatic breast imaging. Referral is via choose and book surgical breast clinic appointments. Routine breast screening ages 50-70 is by invitation only. Women over 70 may self refer for routine screening by calling 0114 271 1920. Any enquiries related to routine breast screening please call 0114 271 1720." 
+   link: ""
+   id: 4
+ - title: "Angiography"
+   body: "This is normally only available to specialist referrers.  Please e-mail us at the NHSnet address below if you need advice. Should further detailed advice be necessary on any imaging examination, please contact us by <a href='mailto:Sht-tr.radiologyenquiries@nhs.net'>e-mail</a>; and we will endeavour to respond within 24 hours."  
+   link: ""
+   id: 5
+ - title: "Accessing other examinations"
+   body: "Request cards for CT, MRI, ultrasound, fluroscopy and nuclear medicine (isotope) examinations should be faxed or posted directly to the Radiology Appointments Call Centre, as this will enabe us to ensure correct bookings are made."  
+   link: ""
+   id: 6
+ - title: "Request Cards"
+   body: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat."  
+   link: "<a href='link' class='btn btn-default'>Order Request Cards</a>"
+   id: 7
