@@ -8,7 +8,7 @@ pathway:
    link: "<a href='link' class='btn btn-default'>Order GP Request Cards</a>"
    id: 2
  - title: "CT, MRI, Ultrasound scans & Fluoroscopy examinations (Barium studies etc.)"
-   body: "In order to help us provide an efficient service to your patients please <strong>fax</strong> all requests to <address>Radiology Call Centre, C Floor, Hallamshire Hospital Glossop Road , Sheffield S10 2JF, Fax: 0114 271 3766</address>.  Alternatively please send them by post to the postal address."
+   body: "In order to help us provide an efficient service to your patients please <strong>fax</strong> all requests to <address>Radiology Call Centre, C Floor, Hallamshire Hospital Glossop Road , Sheffield S10 2JF, Fax: 0114 271 3766</address>.<p>Alternatively please send them by post to the postal address</p>"
    link: ""
    id: 3
  - title: "Breast imaging"
