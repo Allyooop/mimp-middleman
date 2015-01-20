@@ -3,7 +3,7 @@ service:
    slug: radiosurgery-physics
    one-liner: "Radiosurgery Physics provides scientific support to Gamma Knife Radiosurgery treatments at the National Centre for Stereotactic Radiosurgery"
    banner-image: ""
-   description: ""
+   description: "In radiosurgery, instead of using a surgical knife when treating a patient,  radiation is the tool of choice. Radiosurgery Physics is the service tasked with providing the scientific and technical support to ensure that all procedures and equipment are fully functioning and successful."
    services-provided: 
     - service-name: "Physics support for gamma knife treatments"
       service-description: ""
@@ -31,7 +31,6 @@ service:
     - conditions-name: "Pituitary Adenoma"
       conditions-url: ""
       conditions-description: ""      
-   description: "In radiosurgery, instead of using a surgical knife when treating a patient,  radiation is the tool of choice. Radiosurgery Physics is the service tasked with providing the scientific and technical support to ensure that all procedures and equipment are fully functioning and successful."
    related-services:
     - related-service-name: "radiation protection assurance"
       related-service-url: radiation-protection-assurance
@@ -39,17 +38,17 @@ service:
    service-team:
     - team-head: "Mr Lee Walton"
       team-head-role: "Section Head & Consultant Clinical Scientist"
-      team-member: "Mrs Anna Hampshire"
+    - team-member: "Mrs Anna Hampshire"
       team-role: "Principal Physicist"
-      team-member: "Mrs Katie Hunt"
+    - team-member: "Mrs Katie Hunt"
       team-role: "Physicist"
-      team-member: "Mr Paul Vaughan"
+    - team-member: "Mr Paul Vaughan"
       team-role: "Section Chief Clinical Technologist"
-      team-member: "Miss Alison Grainger"
+    - team-member: "Miss Alison Grainger"
       team-role: "Chief Clinical Technologist"
-      team-member: "Mrs Angela  Huntington"
+    - team-member: "Mrs Angela  Huntington"
       team-role: "Senior Clinical Technologist"
-      team-member: "Miss Shona McDonald"
+    - team-member: "Miss Shona McDonald"
       team-role: "Senior Clinical Technologist"
    address: "Royal Hallamshire Hospital, Glossop Road, Sheffield, S10 2JF"
    contact-details:
@@ -59,12 +58,12 @@ service:
    referral-information: ""
    selling-points: "Collectively our Radiosurgery physics team have close to 100 years of experience in Gamma Knife Radiosurgery.  They have a reputation for attention to detail, which equips them well to ensure the accuracy of;  the treatment machine; the imaging scanners used to scan patients; and the radiation dose planning computers used to construct the conformal plan which delivers maximum radiation to the abnormality while sparing adjacent normal tissue."
    additional-information: ""
- 
- - name: "Medical physics"
-   slug: medical-physics
+
+ - name: "Audiological Science"
+   slug: audiological-science
    one-liner: ""
    banner-image: ""
-   description: ""
+   description: "Audiological Science is responsible for treating people with hearing and balance difficulties and provides scientific and clinical input to Audiology Services in Sheffield, Chesterfield and North East Derbyshire. The department also includes the Sheffield Hearing and Learning Impairment Service which offers bespoke audiological assessment and management for adults with intellectual impairment."
    services-provided: 
     - service-name: ""
       service-description: ""
@@ -75,16 +74,203 @@ service:
    conditions: 
     - conditions-name: ""
       conditions-url: ""
-      conditions-description: ""
-   description: ""
+      conditions-description: ""     
    related-services:
-    - related-service-name: ""
-      related-service-url: ""
-      related-service-description: ""
+    - related-service-name: "radiation protection assurance"
+      related-service-url: radiation-protection-assurance
+      related-service-description: "Radiation Protection Assurance (RPA) offers comprehensive and high quality radiation protection services that are tailored to individual needs"
    service-team:
     - team-head: ""
-      team-contact: ""
-   address: ""
+      team-head-role: ""
+    - team-member: ""
+      team-role: ""
+    - team-member: ""
+      team-role: ""
+    - team-member: ""
+      team-role: ""
+    - team-member: ""
+      team-role: ""
+    - team-member: ""
+      team-role: ""
+    - team-member: ""
+      team-role: ""
+   address: "Royal Hallamshire Hospital, Glossop Road, Sheffield, S10 2JF"
+   contact-details:
+    - location: ""
+      phone-number: ""
+      email: ""
+   referral-information: ""
+   selling-points: ""
+   additional-information: ""
+
+ - name: "Clinical Engineering"
+   slug: clinical-engineering
+   one-liner: ""
+   banner-image: ""
+   description: "The Clinical Engineering section provide Medical Device Innovation, Clinical Service Development and Medical Equipment Management services for Trusts and Community Services in the Sheffield and surrounding area"
+   services-provided: 
+    - service-name: ""
+      service-description: ""
+   treatments: 
+    - treatment-name: ""
+      treatment-url: ""
+      treatment-description: ""
+   conditions: 
+    - conditions-name: ""
+      conditions-url: ""
+      conditions-description: ""     
+   related-services:
+    - related-service-name: "radiation protection assurance"
+      related-service-url: radiation-protection-assurance
+      related-service-description: "Radiation Protection Assurance (RPA) offers comprehensive and high quality radiation protection services that are tailored to individual needs"
+   service-team:
+    - team-head: ""
+      team-head-role: ""
+    - team-member: ""
+      team-role: ""
+    - team-member: ""
+      team-role: ""
+    - team-member: ""
+      team-role: ""
+    - team-member: ""
+      team-role: ""
+    - team-member: ""
+      team-role: ""
+    - team-member: ""
+      team-role: ""
+   address: "Royal Hallamshire Hospital, Glossop Road, Sheffield, S10 2JF"
+   contact-details:
+    - location: ""
+      phone-number: ""
+      email: ""
+   referral-information: ""
+   selling-points: ""
+   additional-information: ""
+
+ - name: "Magnetic Resonance Physics"
+   slug: magnetic-resonance-physics
+   one-liner: ""
+   banner-image: ""
+   description: "The Clinical Engineering section provide Medical Device Innovation, Clinical Service Development and Medical Equipment Management services for Trusts and Community Services in the Sheffield and surrounding area"
+   services-provided: 
+    - service-name: ""
+      service-description: ""
+   treatments: 
+    - treatment-name: ""
+      treatment-url: ""
+      treatment-description: ""
+   conditions: 
+    - conditions-name: ""
+      conditions-url: ""
+      conditions-description: ""     
+   related-services:
+    - related-service-name: "radiation protection assurance"
+      related-service-url: radiation-protection-assurance
+      related-service-description: "Radiation Protection Assurance (RPA) offers comprehensive and high quality radiation protection services that are tailored to individual needs"
+   service-team:
+    - team-head: ""
+      team-head-role: ""
+    - team-member: ""
+      team-role: ""
+    - team-member: ""
+      team-role: ""
+    - team-member: ""
+      team-role: ""
+    - team-member: ""
+      team-role: ""
+    - team-member: ""
+      team-role: ""
+    - team-member: ""
+      team-role: ""
+   address: "Royal Hallamshire Hospital, Glossop Road, Sheffield, S10 2JF"
+   contact-details:
+    - location: ""
+      phone-number: ""
+      email: ""
+   referral-information: ""
+   selling-points: ""
+   additional-information: ""
+
+ - name: "Nuclear Medicine"
+   slug: nuclear-medicine
+   one-liner: ""
+   banner-image: ""
+   description: "In Nuclear Medicine, small amounts of radioactive compounds, known as radiopharmaceuticals, are used to diagnose and treat a wide range of illnesses.  The Nuclear Medicine service in Sheffield is sited across 3 hospitals (Northern General, Royal Hallamshire and Weston Park) and offers a broad range of imaging tests, non-imaging tests and therapy procedures."
+   services-provided: 
+    - service-name: ""
+      service-description: ""
+   treatments: 
+    - treatment-name: ""
+      treatment-url: ""
+      treatment-description: ""
+   conditions: 
+    - conditions-name: ""
+      conditions-url: ""
+      conditions-description: ""     
+   related-services:
+    - related-service-name: "radiation protection assurance"
+      related-service-url: radiation-protection-assurance
+      related-service-description: "Radiation Protection Assurance (RPA) offers comprehensive and high quality radiation protection services that are tailored to individual needs"
+   service-team:
+    - team-head: ""
+      team-head-role: ""
+    - team-member: ""
+      team-role: ""
+    - team-member: ""
+      team-role: ""
+    - team-member: ""
+      team-role: ""
+    - team-member: ""
+      team-role: ""
+    - team-member: ""
+      team-role: ""
+    - team-member: ""
+      team-role: ""
+   address: "Royal Hallamshire Hospital, Glossop Road, Sheffield, S10 2JF"
+   contact-details:
+    - location: ""
+      phone-number: ""
+      email: ""
+   referral-information: ""
+   selling-points: ""
+   additional-information: ""
+
+ - name: "Scientific Computing & Informatics"
+   slug: scientific-computing-and-informatics
+   one-liner: ""
+   banner-image: ""
+   description: "The Scientific Computing and Imaging Informatics group aim to improve the utility and quality of the computer technology used in clinical and medical research environments. Activities include clinical systems development, clinical systems integration and managing one of the trusts Picture Archiving and Communication Systems (PACS). We specialise in the use of open source software within the clinical domain and have deployed a number of systems based on best of breed free and open source software (FOSS)."
+   services-provided: 
+    - service-name: ""
+      service-description: ""
+   treatments: 
+    - treatment-name: ""
+      treatment-url: ""
+      treatment-description: ""
+   conditions: 
+    - conditions-name: ""
+      conditions-url: ""
+      conditions-description: ""     
+   related-services:
+    - related-service-name: "radiation protection assurance"
+      related-service-url: radiation-protection-assurance
+      related-service-description: "Radiation Protection Assurance (RPA) offers comprehensive and high quality radiation protection services that are tailored to individual needs"
+   service-team:
+    - team-head: ""
+      team-head-role: ""
+    - team-member: ""
+      team-role: ""
+    - team-member: ""
+      team-role: ""
+    - team-member: ""
+      team-role: ""
+    - team-member: ""
+      team-role: ""
+    - team-member: ""
+      team-role: ""
+    - team-member: ""
+      team-role: ""
+   address: "Royal Hallamshire Hospital, Glossop Road, Sheffield, S10 2JF"
    contact-details:
     - location: ""
       phone-number: ""

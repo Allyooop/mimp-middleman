@@ -1,0 +1,73 @@
+---
+
+---
+
+<section class="treatment-header <%= page_classes %>">
+  <div class="container">
+    <div class="row">
+      <h1><%= treatment['title'] %></h1>
+    </div>
+  </div>
+</section>
+
+<div class="container">
+  <ol class="breadcrumb">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Treatments &amp; Conditions</a></li>
+    <li class="active"><%= treatment['title'] %></li>
+  </ol>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-8">
+      <article class="treatment-main">
+        <section class="well branded-well">
+          <p class="lead"><%= treatment['one-liner'] %></p>
+          <p><%= treatment['intro'] %></p>
+          <p>The information given below is a brief summary only.  If you are a patient attending for a scan, please read your appointment letter and patient information leaflet carefully for more detailed information.</p>
+        </section>
+        
+        <% treatment['patient-journey'].each do |x| %>
+        <section class="well">
+         <header>
+          <h3>Before</h3>
+        </header>
+          <p><%= x['before'] %></p>
+        </section>
+        
+        <section class="well">
+         <header>
+          <h3>During</h3>
+        </header>
+          <p><%= x['during'] %></p>
+        </section>
+        
+        <section class="well">
+         <header>
+          <h3>After</h3>
+        </header>
+          <p><%= x['after'] %></p>
+        </section>
+        
+        <section class="well">
+         <header>
+          <h3>Results</h3>
+        </header>
+          <p><%= x['results'] %></p>
+        </section>
+        <% end %>
+        
+      </article>
+    </div>
+    <div class="col-md-4">
+      <section class="well">
+        <address><%= treatment['address'] %></address>
+        <a href="mailto:<%= treatment['email'] %>" class="btn btn-warning">Email us</a>
+        <a href="tel:<%= treatment['phone'] %>" class="btn btn-link"><%= treatment['phone'] %></a>
+      </section>
+      
+      
+    </div>
+  </div>
+</div>

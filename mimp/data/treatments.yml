@@ -1,0 +1,43 @@
+treatment:
+  - title: "Computed Tomography (CT)"
+    slug: computed-tomography
+    one-liner: "Computed tomography (CT), sometimes called a CAT scan, uses x-rays and computers to create an image of the inside of your body."
+    intro: "The CT machine looks like a doughnut that you travel through, lacking the sprinkles. Unless we had a messy lunch. But then, that was on purpose. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat."
+    img: ""
+    patient-journey:
+      - before: "There are different preparations to follow according to exactly what type of CT scan you are having..."
+        during: "During the examination... Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat."
+        after: "After the examination you will be... short message to reassure people of the next steps"
+        results: "The results from your scan are interpreted the same day of your scan by a team of experts in the Medical Physics department. They will... Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat."
+    service: ""
+    service-url: ""
+    department: "Medical Physics and Clinical Engineering"
+    department-url: medical-physics-clinical-engineering
+    faqs:
+      - question: "Is Computed Tomography dangerous?"
+        answer: "answer here"
+    resources: ""
+    links: ""
+    phone: "01140000000"
+    email: "@sth.nhs.uk"
+    address: "Royal Hallamshire Hospital, Glossop Road"
+
+  - title: ""
+    one-liner: ""
+    intro: ""
+    patient-journey:
+      - before: ""
+        during: ""
+        after: ""
+        results: ""
+    service: ""
+    department: ""
+    faqs:
+      - question: ""
+        answer: ""
+    resources: ""
+    links: ""
+    phone: ""
+    email: ""
+    address: ""
+    

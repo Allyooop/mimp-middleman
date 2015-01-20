@@ -56,6 +56,10 @@ data.departments.department.each do |department|
   proxy "/departments/#{department.slug}.html", "/departments/template.html", :locals => { :department => department }, :ignore => true
 end
 
+data.treatments.treatment.each do |treatment|
+  proxy "/treatments/#{treatment.slug}.html", "/treatments/template.html", :locals => { :treatment => treatment }, :ignore => true
+end
+
 set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 set :images_dir, 'images'

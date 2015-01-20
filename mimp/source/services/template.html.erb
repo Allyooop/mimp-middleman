@@ -33,7 +33,7 @@
         <h4>Our team</h4>
          <p>The <%= service['name'] %> service is run by a multi-disciplinary team based at Sheffield Teaching Hospitals, led by
          <% service['service-team'].each do |x| %>
-         <%= x['team-head'] %>, <%= x['team-head-role']%>
+         <%= x['team-head'] %> <%= x['team-head-role']%>
          <% end %></p>
          <a href="/teams/<%= service['slug'] %>" class="btn btn-primary" alt="link to <%= service['name'] %>'s team profile page">Meet the team</a>
       </section>
