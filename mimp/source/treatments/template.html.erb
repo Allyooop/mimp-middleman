@@ -5,7 +5,7 @@
 <section class="treatment-header <%= page_classes %>">
   <div class="container">
     <div class="row">
-      <h1><%= treatment['title'] %></h1>
+      <h1 id="top"><%= treatment['title'] %></h1>
     </div>
   </div>
 </section>
@@ -28,46 +28,119 @@
           <p>The information given below is a brief summary only.  If you are a patient attending for a scan, please read your appointment letter and patient information leaflet carefully for more detailed information.</p>
         </section>
         
+        <div id="patient-information">
         <% treatment['patient-journey'].each do |x| %>
-        <section class="well">
-         <header>
-          <h3>Before</h3>
-        </header>
-          <p><%= x['before'] %></p>
-        </section>
-        
-        <section class="well">
-         <header>
-          <h3>During</h3>
-        </header>
-          <p><%= x['during'] %></p>
-        </section>
-        
-        <section class="well">
-         <header>
-          <h3>After</h3>
-        </header>
-          <p><%= x['after'] %></p>
-        </section>
-        
-        <section class="well">
-         <header>
-          <h3>Results</h3>
-        </header>
-          <p><%= x['results'] %></p>
-        </section>
+          <section class="well">
+           <header>
+            <h4>Before your treatment</h4>
+          </header>
+            <p><%= x['before'] %></p>
+            <a href="#top">Back to the top</a>
+          </section>
+
+          <section class="well">
+           <header>
+            <h4>During your treatment</h4>
+          </header>
+            <p><%= x['during'] %></p>
+            <a href="#top">Back to the top</a>
+          </section>
+
+          <section class="well">
+           <header>
+            <h4>After your treatment</h4>
+          </header>
+            <p><%= x['after'] %></p>
+            <a href="#top">Back to the top</a>
+          </section>
+
+          <section class="well">
+           <header>
+            <h4>What happens to your results</h4>
+          </header>
+            <p><%= x['results'] %></p>
+            <a href="#top">Back to the top</a>
+          </section>
         <% end %>
+        </div>
+
         
       </article>
     </div>
     <div class="col-md-4">
       <section class="well">
+        <h4>Contact us</h4>
         <address><%= treatment['address'] %></address>
         <a href="mailto:<%= treatment['email'] %>" class="btn btn-warning">Email us</a>
         <a href="tel:<%= treatment['phone'] %>" class="btn btn-link"><%= treatment['phone'] %></a>
       </section>
       
+      <section class="well">
+        <h4>Useful links</h4>
+        <ul class="list-unstyled">
+          <li><a href="../departments-services/<%= treatment['department-url'] %>" class=""><%= treatment['department'] %> Department</a></li>
+          <!-- place loop here if needed -->
+          <li><a href="../departments-services/<%= treatment['service-url'] %>" class=""><%= treatment['service'] %> Service</a></li>
+        </ul>
+        
+      </section>
       
+      <section class="well">
+        <h4>Further Resources</h4>
+        <ul class="list-unstyled">
+          <li><a>Patient Information leaflet 1</a></li>
+          <li><a>Patient Information leaflet 2</a></li>
+          <li><a>Professional Group</a></li>
+          <li><a>NHS choices link</a></li>
+        </ul>
+      </section>
+      
+      
+    </div>
+  </div>
+  
+    <div class="row">
+    <div class="col-md-12">
+      <h5>Related pages</h5>
+      <section class="">
+        <div class="row">
+          <div class="col-md-3 col-sm-3">
+            <div class="well">
+              <a href="#">
+              <img>
+              <h4>Title of service</h4>
+            </a>
+            </div>
+          </div>
+          
+          <div class="col-md-3 col-sm-3">
+            <div class="well">
+            <a href="#">
+              <img>
+              <h4>Title of department</h4>
+            </a>
+          </div>
+          </div>
+          
+          <div class="col-md-3 col-sm-3">
+            <div class="well">
+            <a href="#">
+              <img>
+              <h4>Title of condition</h4>
+            </a>
+          </div>
+            </div>
+          
+          <div class="col-md-3 col-sm-3">
+            <div class="well">
+            <a href="#">
+              <img>
+              <h4>Title of treatment</h4>
+            </a>
+          </div>
+            </div>
+        </div>      
+      </section>
     </div>
   </div>
 </div>

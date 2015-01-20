@@ -49,15 +49,15 @@
 # 
 
 data.services.service.each do |service|
-  proxy "/services/#{service.slug}.html", "/services/template.html", :locals => { :service => service }, :ignore => true
+  proxy "/departments-services/#{service.slug}.html", "/services/template.html", :locals => { :service => service }, :ignore => true
 end
 
 data.departments.department.each do |department|
-  proxy "/departments/#{department.slug}.html", "/departments/template.html", :locals => { :department => department }, :ignore => true
+  proxy "/departments-services/#{department.slug}.html", "/departments/template.html", :locals => { :department => department }, :ignore => true
 end
 
 data.treatments.treatment.each do |treatment|
-  proxy "/treatments/#{treatment.slug}.html", "/treatments/template.html", :locals => { :treatment => treatment }, :ignore => true
+  proxy "/conditions-treatments/#{treatment.slug}.html", "/treatments/template.html", :locals => { :treatment => treatment }, :ignore => true
 end
 
 set :css_dir, 'stylesheets'

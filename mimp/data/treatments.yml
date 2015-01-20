@@ -5,12 +5,12 @@ treatment:
     intro: "The CT machine looks like a doughnut that you travel through, lacking the sprinkles. Unless we had a messy lunch. But then, that was on purpose. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat."
     img: ""
     patient-journey:
-      - before: "There are different preparations to follow according to exactly what type of CT scan you are having..."
+      - before: "There are different preparations to follow according to exactly what type of CT scan you are having... Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat."
         during: "During the examination... Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat."
-        after: "After the examination you will be... short message to reassure people of the next steps"
+        after: "After the examination you will be... short message to reassure people of the next steps Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat."
         results: "The results from your scan are interpreted the same day of your scan by a team of experts in the Medical Physics department. They will... Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat."
-    service: ""
-    service-url: ""
+    service: "Related Service"
+    service-url: related-service
     department: "Medical Physics and Clinical Engineering"
     department-url: medical-physics-clinical-engineering
     faqs:
