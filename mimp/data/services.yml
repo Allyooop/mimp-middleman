@@ -17,7 +17,7 @@ service:
       treatment-description: ""
    conditions: 
     - conditions-name: "Acoustic Neuroma"
-      conditions-url: "#acoustic-neuroma"
+      conditions-url: acoustic-neuroma
       conditions-description: ""
     - conditions-name: "Meningioma"
       conditions-url: ""

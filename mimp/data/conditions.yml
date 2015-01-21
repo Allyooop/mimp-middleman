@@ -1,2 +1,24 @@
 condition:
-  - title: ""
+  - title: "Acoustic Neuroma"
+    slug: acoustic-neuroma
+    summary: "Acoustic Neuroma is a growth or tumour in the brain"
+    body: "Acoustic Neuroma (also called a vestibular schwannoma) is a rare growth (tumour) in the brain. It often grows in size but does not spread to other parts of the body. Bigger acoustic neuromas can interfere with the vestibulocochlear nerve, which can cause hearing problems."
+    info-link: ""
+    treatment: "Treatment name"
+    treatment-url: ""
+    service: "Radiosurgery Physics"
+    service-url: radiosurgery-physics
+    department: "Medical Physics and Clinical Engineering"
+    department-url: medical-physics-clinical-engineering
+    
+  - title: "placeholder"
+    slug: ""
+    summary: ""
+    body: ""
+    info-link: ""
+    treatment: ""
+    treatment-url: ""
+    service: ""
+    service-url: ""
+    department: ""
+    department-url: ""

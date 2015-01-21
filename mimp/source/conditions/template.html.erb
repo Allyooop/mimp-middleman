@@ -1,0 +1,58 @@
+
+
+<section class="condition-header <%= page_classes %>">
+  <div class="container">
+    <div class="row">
+      <h1 id="top"><%= condition['title'] %></h1>
+    </div>
+  </div>
+</section>
+
+<div class="container">
+  <ol class="breadcrumb">
+    <li><a href="../">Home</a></li>
+    <li><a href="../conditions-treatments/">Conditions &amp; Treatments</a></li>
+    <li class="active"><%= condition['title'] %></li>
+  </ol>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-8">
+      <article class="condition-main">
+        <section class="well branded-well">
+          <p class="lead"><%= condition['summary'] %></p>
+          <p><%= condition['body'] %></p>
+          <a href="<%= condition['treatment'] %>" alt="" class="btn btn-primary">Treatment page</a>
+          <a href="<%= condition['department'] %>" alt="" class="btn btn-link">Department page</a>
+          <p class="quiet">The information provided is a brief summary only.  If you are a patient attending for a scan, please read your appointment letter and patient information leaflet carefully for more detailed information.</p>
+        </section>
+        
+        <section class="well">
+        <a href="../conditions-services/" class="btn btn-link" alt="">Return to A-Z Conditions &amp; Services</a>
+        </section>
+      </article>
+    </div>
+    
+    <div class="col-md-4">  
+      
+      <section class="well">
+        <h4>Related links</h4>
+        <ul class="list-unstyled">
+          <li><a href="/conditions-treatments/<%= condition['treatment-url'] %>/" alt="" class="">Treatment</a></li>
+          <li><a href="../departments-services/<%= condition['service-url'] %>/" alt="" class="">Service</a></li>
+          <li><a href="../departments-services/<%= condition['department-url'] %>/" alt="" class="">Department</a></li>
+          <li><a href="" alt="" class="">Patient Information</a></li>
+        </ul>
+      </section>
+      
+      <section class="well">
+        <h4>Our Departments &amp; Services</h4>
+        <p>Locate the dedicated department and service pages through our <a href="departments-services.html" alt="link to the department and service A-Z" class="">A-Z page</a> or the directory below:</p>
+        <%= partial 'partials/components/btn_departments' %>
+        <%= partial 'partials/components/btn_services' %>
+      </section>
+           
+    </div>
+  </div>
+</div>

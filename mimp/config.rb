@@ -60,6 +60,10 @@ data.treatments.treatment.each do |treatment|
   proxy "/conditions-treatments/#{treatment.slug}.html", "/treatments/template.html", :locals => { :treatment => treatment }, :ignore => true
 end
 
+data.conditions.condition.each do |condition|
+  proxy "/conditions-treatments/#{condition.slug}.html", "/conditions/template.html", :locals => { :condition => condition }, :ignore => true
+end
+
 set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 set :images_dir, 'images'
