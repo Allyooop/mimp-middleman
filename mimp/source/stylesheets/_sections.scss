@@ -24,6 +24,11 @@
   border-right: 0;
 }
 
+.condition-well, .treatment-well {
+  @extend .branded-well;
+  border-width: 2px;
+}
+
 .case-study-unit {
   
   padding-top: 10px;

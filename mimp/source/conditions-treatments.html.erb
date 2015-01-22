@@ -1,0 +1,97 @@
+---
+title: Conditions and Treatments - Medical Imaging and Medical Physics Sheffield Hospitals
+---
+<%= javascript_include_tag "sieve" %>
+
+<section class="<%= page_classes %>">
+  <div class="container">
+    <div class="row">
+        <h1 class="brand-h1" id="top">Conditions &amp; Treatments</h1>
+      </div>
+  </div>
+</section>
+
+<div class="container">
+  <ol class="breadcrumb">
+    <li><a href="/">Home</a></li>
+    <li class="active">Conditions &amp; Treatments</li>
+  </ol>
+</div>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-8">
+      <article class="filter-main">
+        <section class="well branded-well">
+          <p class="lead">Duis autem vel eum iriure dolor in hendrerit in vulputate veli in hendrerit in vulputate veli.</p>
+          <p>in hendrerit in vulputate veli</p>
+          <a href="#" class="btn btn-primary">A-Z Departments &amp; Services</a>
+          <script>
+          jQuery(document).ready(function() {
+            jQuery("article.filter").sieve({ itemSelector: "section" });
+            }); 
+        </script>
+          
+        </section>
+      </article>   
+      
+      
+      <article class="filter">
+        
+        <% data.treatments.treatment.each do |x| %>
+          <section class="well treatment-well" id="<%= x['slug'] %>">
+            <h4><%= x['title'] %></h4>
+            <p class="lead"><%= x['one-liner'] %></p>
+            <a href="../conditions-treatments/<%= x['slug'] %>/" alt="link to <%= x['title'] %> treatment page" class="btn btn-sm btn-primary">Treatment Page</a>
+            <a href="#top" alt="link to top of the page" class="btn btn-sm btn-link">Back to top</a>
+          </section>
+        <% end %>
+        
+        <% data.conditions.condition.each do |x| %>
+          <section class="well condition-well" id="<%= x['slug'] %>">
+            <h4><%= x['title'] %></h4>
+            <p class="lead"><%= x['summary'] %></p>
+            <a href="../conditions-treatments/<%= x['slug'] %>/" alt="link to <%= x['title'] %> treatment page" class="btn btn-sm btn-primary">Condition Page</a>
+            <a href="#top" alt="link to top of the page" class="btn btn-sm btn-link">Back to top</a>
+          </section>
+        <% end %>
+      </article>
+    </div>
+    
+    
+    <div class="col-md-4">
+      <section class="well">
+        <h4>Contact Details</h4>
+        <%= partial 'partials/components/contact_info' %>
+      </section>
+      
+      <section class="well">
+        <h4>Our Departments &amp; Services</h4>
+        <p>Locate the dedicated department and service pages through our <a href="../departments-services/" alt="link to the department and service A-Z" class="">A-Z page</a> or the directory below:</p>
+        <%= partial 'partials/components/btn_departments' %>
+        <%= partial 'partials/components/btn_services' %>
+      </section>
+      
+      <section class="well">
+        <h4>Our Patient Services Team</h4>
+        <p>Our Patient Service Team provides a point of contact for any concerns or questions. If you are unsure who to talk to, our Paitent Service Team will always be willing to help!</p>
+        <p>The Patient Services Team can be contacted Monday to Friday from 8.30am until 5.00pm. The team can be contacted in the following ways:</p>
+        <ul>
+          <li>Telephone on 0114 271 2400</li>
+          <li>Via email on <a href="mailto:PST@sth.nhs.uk">PST@sth.nhs.uk</a></li>
+          <li>In person in the Patient Partnership Department on B Floor, Royal Hallamshire Hospital and the Huntsman main entrance on C Floor at the Northern General Hospital</li>
+        </ul>
+      </section>
+      
+      <section class="well">
+        <h4>Resources</h4>
+      </section>
+    </div>
+    
+    
+    
+    
+    
+  </div>
+</div>

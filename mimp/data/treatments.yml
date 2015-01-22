@@ -23,15 +23,19 @@ treatment:
     address: "Royal Hallamshire Hospital, Glossop Road"
 
   - title: ""
+    slug: ""
     one-liner: ""
     intro: ""
+    img: ""
     patient-journey:
       - before: ""
         during: ""
         after: ""
         results: ""
     service: ""
+    service-url: ""
     department: ""
+    department-url: ""
     faqs:
       - question: ""
         answer: ""

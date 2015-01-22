@@ -26,7 +26,7 @@
       container = $(this);
       settings = $.extend({
         searchInput: null,
-        searchTemplate: "<form><div class='form-group'><label for='sieve'>A-Z Search</label> <input id='sieve' type='text' placeholder='Enter Search'></div></form>",
+        searchTemplate: "<form class='well' id='search-form'><div class='form-group'><label for='sieve'><h4>A-Z Search</h4></label> <input id='sieve' type='text' placeholder='Enter Search'></div></form>",
         itemSelector: "tbody tr",
         textSelector: null,
         toggle: function(item, match) {
