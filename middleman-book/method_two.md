@@ -24,9 +24,9 @@ Import the bootstrap Scss into your Scss file above your variables
 > If you are using a theme do this:
 >```
 @import "bootstrap-sprockets";
-@import "_variables.scss";
+@import "variables";
 @import "bootstrap";
-@import "_bootswatch.scss";`
+@import "bootswatch";`
 ```
 > We include the ```_variables.scss``` file above bootstrap so that it uses the settings found in there.
 
