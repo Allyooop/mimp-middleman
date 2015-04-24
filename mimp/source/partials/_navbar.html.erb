@@ -12,7 +12,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="../">Medical Imaging &amp; Medical Physics</a>
+          <%= link_to "Medical Imaging & Medical Physics", "/index.html", class: "navbar-brand" %>
         </div>
 
         <!-- mobile only nav -->
@@ -27,9 +27,9 @@
 
 
       <ul class="nav navbar-nav navbar-right hidden-xs">
-        <a href="../"><img class="navbar-logo" src="https://banjo-solid.codio.io/mimp/build/images/logo-white.png"
-          alt="logo for the Sheffield Teaching Hospital NHS Foundation Trust">
-        </a>
+        <%= link_to "/index.html" %>
+          <img class="navbar-logo" src="http://www.sth.nhs.uk/images/sheffield-teaching-hospitals.gif" alt="logo for the Sheffield Teaching Hospital NHS Foundation Trust">
+        <% end %>
       </ul>
     </div>
 
