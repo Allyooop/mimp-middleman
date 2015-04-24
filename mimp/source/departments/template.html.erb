@@ -12,8 +12,8 @@
 
 <div class="container">
   <ol class="breadcrumb">
-    <li><a href="#">Home</a></li>
-    <li><a href="#">Departments</a></li>
+    <li><%= link_to "Home", "/index.html"%></li>
+    <li><%= link_to "Departments", "/departments-services.html" %></li>
     <li class="active"><%= department['name'] %></li>
   </ol>
 </div>
@@ -47,7 +47,7 @@
         <h4>Our team</h4>
          <p>The <%= department['name'] %> department is based at Sheffield Teaching Hospitals, led by
            <% department['staff'].each do |x| %>
-           <%= x['department-head'] %>, <%= x['department-head-role']%>
+              <%= x['department-head'] %>, <%= x['department-head-role']%>
            <% end %></p>
          <a href="/teams/<%= department['slug'] %>" class="btn btn-primary" alt="link to <%= department['name'] %>'s team profile page">Meet the team</a>
       </section>

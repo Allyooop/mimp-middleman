@@ -40,8 +40,7 @@ title: Departments and Services - Medical Imaging and Medical Physics Sheffield 
           <section class="well treatment-well" id="<%= x['slug'] %>">
             <h4><%= x['name'] %></h4>
             <p class="lead"><%= x['one-liner'] %></p>
-            <%= link_to "Department Page", "/departments-services/#{x['slug']}.html" %>
-            <a href="../departments-services/<%= x['slug'] %>/" alt="link to <%= x['title'] %> department page" class="btn btn-sm btn-primary">Department Page</a>
+            <%= link_to "Department Page", "/departments-services/#{x['slug']}.html", class: "btn btn-sm btn-primary" %>
             <a href="#top" alt="link to top of the page" class="btn btn-sm btn-link">Back to top</a>
           </section>
         <% end %>
@@ -50,7 +49,7 @@ title: Departments and Services - Medical Imaging and Medical Physics Sheffield 
           <section class="well treatment-well" id="<%= x['slug'] %>">
             <h4><%= x['name'] %></h4>
             <p class="lead"><%= x['one-liner'] %></p>
-            <a href="../departments-services/<%= x['slug'] %>/" alt="link to <%= x['title'] %> Service page" class="btn btn-sm btn-primary">Service Page</a>
+            <%= link_to "Service Page", "/departments-services/#{x['slug']}.html", class: "btn btn-sm btn-primary" %>
             <a href="#top" alt="link to top of the page" class="btn btn-sm btn-link">Back to top</a>
           </section>
         <% end %>
