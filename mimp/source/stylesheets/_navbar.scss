@@ -11,3 +11,11 @@ ul#navbar-mobile {
   max-width: 350px;
   margin-top: 15px;
 }
+
+@media screen and (max-width: 450px) {
+    .navbar-brand {
+      
+      font-size: 14px;
+      
+    }
+  }
