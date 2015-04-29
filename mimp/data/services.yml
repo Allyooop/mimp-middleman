@@ -29,5 +29,31 @@ service:
       phone-number: "0114-2713576"
       email: "GammaKnife@sth.nhs.uk"
    referral-information: ""
-   selling-points: "Collectively our Radiosurgery physics team have close to 100 years of experience in Gamma Knife Radiosurgery.  They have a reputation for attention to detail, which equips them well to ensure the accuracy of;  the treatment machine; the imaging scanners used to scan patients; and the radiation dose planning computers used to construct the conformal plan which delivers maximum radiation to the abnormality while sparing adjacent normal tissue."
+   selling-points: "<p>Collectively our Radiosurgery physics team have close to 100 years of experience in Gamma Knife Radiosurgery.  They have a reputation for attention to detail, which equips them well to ensure the accuracy of;  the treatment machine; the imaging scanners used to scan patients; and the radiation dose planning computers used to construct the conformal plan which delivers maximum radiation to the abnormality while sparing adjacent normal tissue.</p>"
    additional-information: ""
+
+ - name: "Nuclear Medicine"
+   slug: nuclear-medicine
+   one-liner: "The Nuclear Medicine section uses highly specialised radionuclide techniques to diagnose, assess and treat a wide range of conditions."
+   banner-image: "" 
+   description: "In Nuclear Medicine, small amounts of radioactive compounds, known as radiopharmaceuticals, are used to diagnose and treat a wide range of illnesses.  The Nuclear Medicine service in Sheffield is sited across 3 hospitals (Northern General, Royal Hallamshire and Weston Park) and offers a broad range of imaging tests, non-imaging tests and therapy procedures."
+   services-provided: 
+    - service-name: "Nuclear Medicine Imaging"
+    - service-name: "Positron Emission Imaging"
+    - service-name: "Positron Emission Tomography"
+    - service-name: "Non-Imaging Tests"
+    - service-name: "Radionuclide Therapy"
+   treatments: 
+    - treatment-name: ""
+      treatment-url: ""
+   conditions: 
+    - conditions-name: " "
+      conditions-url: ""
+   service-team: "<p>The Nuclear Medicine service is run by a multi-disciplinary team (including Scientists, Technologists, Radiologists, Admin/Clerical) based at Sheffield Teaching Hospitals,  the service includes: <ul class='list list-unstyled'><li>Section Head: Wendy Tindale</li><li>Medical Physics Experts: Anna Hallam </li><li>Medical Physics Experts: Phil Hillel</li><li>Medical Physics Experts: Pete Metherall</li><li>Clinical Scientists: Michael Hanney</li><li>Clinical Scientists: Shelley Redgate</li><li>Clinical Scientists: Jonathan Taylor</li><li>Clinical Scientists: John Himsworth</li><li>Consultant Radiologist: Dr Eleanor Lorenz</li><li>Consultant Radiologists: Dr Sue Matthews</li><li>Consultant Radiologist: Dr Gayle Rutherford</li></ul>"   
+   address: "If you wish to speak with someone about an appointment at the Royal Hallamshire Hospital or Weston Park Hospital, call our reception desk on: 0114-2712779 <br><br> If you wish to speak with someone about an appointment at the Norther General Hospital, call our reception desk on: 0114-2714374"
+   contact-details:
+    - location: "Royal Hallamshire"
+      phone-number: "01142712779"
+      email: "mimp@sth.nhs.uk"
+   referral-information: ""
+   selling-points: "<h4>Nuclear Medicine Imaging</h4> <p>Following administration of a radioactive tracer (known as a radiopharmaceutical), a specialised scanner called a gamma camera is used to form an image showing the distribution of the radiopharmaceutical within the body.  Gamma camera images show how different organs or systems within the body are functioning - a unique insight that can often reveal signs of disease at a very early stage.</p><h4>Positron Emission Imaging (PET) imaging</h4> <p>Positron Emission Tomography (PET) is a highly specialised form of nuclear medicine imaging that uses a state of the art scanner to produce detailed images of metabolic processes within the body.  Introduced only a few years ago, PET has rapidly become an integral part of the diagnosis and staging of many types of cancer.  The Northern General campus houses the only permanently sited PET scanner in the area.</p> <h4>Non-Imaging Tests</h4> <p>Non imaging tests assess function by using extremely sensitive detectors to measure the amount of radiopharmaceutical in samples taken from the body - usually blood samples. Among other things, non-imaging tests can be used to measure kidney function and investigate a range of blood disorders.</p> <h4>Radionuclide Therapy</h4> <p>As well as diagnosing disease, radiopharmaceuticals can also be used to treat certain illnesses by delivering a highly targeted dose of radiation directly to the affected area.  Nuclear medicine therapy can be used to treat thyroid disorders, rheumatoid arthritis, and certain types of cancer.</p>"
