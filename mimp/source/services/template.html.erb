@@ -31,11 +31,7 @@
       
        <section class="well">
         <h4>Our team</h4>
-         <p>The <%= service['name'] %> service is run by a multi-disciplinary team based at Sheffield Teaching Hospitals, led by
-         <% service['service-team'].each do |x| %>
-         <%= x['team-head'] %> <%= x['team-head-role']%>
-         <% end %></p>
-         <a href="/teams/<%= service['slug'] %>" class="btn btn-primary" alt="link to <%= service['name'] %>'s team profile page">Meet the team</a>
+         <%= service['service-team'] %>
       </section>
         
       </article>
@@ -56,15 +52,16 @@
         <h4>Treatments &amp; conditions</h4>
          
          <ul class="list-unstyled">
+           <!-- this needs to be updated -->
            <% service['treatments'].each do |x| %>
-           <li><a href="<%= x['treatment-url'] %>" class="btn btn-link btn-sm" alt="Link to individual treatment page for <%= x['treatment-name'] %>"><%= x['treatment-name'] %></a>
+           <li><a href="/conditions-treatments/<%= x['treatment-url'] %>" class="btn btn-link btn-sm" alt="Link to individual treatment page for <%= x['treatment-name'] %>"><%= x['treatment-name'] %></a>
            </li>
            <% end %>
          </ul>
            
           <ul class="list-unstyled"> 
           <% service['conditions'].each do |x| %>
-           <li><a href="<%= x['conditions-url'] %>" class="btn btn-link btn-sm" alt="Link to individual treatment page for <%= x['conditions-name'] %>"><%= x['conditions-name'] %></a></li>
+           <li><a href="/conditions-treatments/<%= x['conditions-url'] %>" class="btn btn-link btn-sm" alt="Link to individual treatment page for <%= x['conditions-name'] %>"><%= x['conditions-name'] %></a></li>
            <% end %>
          </ul>
          
@@ -75,62 +72,13 @@
 
          <ul class="list-unstyled list-service">
            <% service['services-provided'].each do |x| %>
-           <li><%= x['service-name'] %> <%= x['service-description'] %></li>
+           <li><%= x['service-name'] %></li>
            <% end %>
          </ul>
          
       </section>
       
-       <section class="well">
-        <h4>Useful information</h4>
-      </section>
       
-      
-    </div>
-  </div>
-  
-  <div class="row">
-    <div class="col-md-12">
-      <h5>Related Services</h5>
-      <section class="">
-        <div class="row">
-          <div class="col-md-3 col-sm-3">
-            <div class="well">
-              <a href="#">
-              <img>
-              <h4>Title of service</h4>
-            </a>
-            </div>
-          </div>
-          
-          <div class="col-md-3 col-sm-3">
-            <div class="well">
-            <a href="#">
-              <img>
-              <h4>Title of service</h4>
-            </a>
-          </div>
-          </div>
-          
-          <div class="col-md-3 col-sm-3">
-            <div class="well">
-            <a href="#">
-              <img>
-              <h4>Title of service</h4>
-            </a>
-          </div>
-            </div>
-          
-          <div class="col-md-3 col-sm-3">
-            <div class="well">
-            <a href="#">
-              <img>
-              <h4>Title of service</h4>
-            </a>
-          </div>
-            </div>
-        </div>      
-      </section>
     </div>
   </div>
 </div>
