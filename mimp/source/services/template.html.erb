@@ -31,7 +31,9 @@
       
        <section class="well">
         <h4>Our team</h4>
-         <%= service['service-team'] %>
+         The service is led by <%= service['service-team'] %>.
+         <a href="/teams/<%= service['slug'] %>" class="btn btn-primary" alt="link to <%= service['name'] %>'s team profile page">Meet the team</a>
+
       </section>
         
       </article>

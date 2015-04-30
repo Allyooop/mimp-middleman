@@ -69,3 +69,36 @@ department:
         cs-desc: ""
         cs-url: ""
         cs-img: ""
+        
+  - name: "Radiography"
+    slug: radiography
+    one-liner: "The general radiography team use their professional and clinical skills to take high quality x-rays whilst providing excellent patient care."
+    summary: "Medical Imaging of the human body plays a vital role in the clinical diagnosis of injury and disease.   Our expert team of Radiologists and Radiographers acquire and interpret images using general radiography (X-rays),  fluoroscopy, magnetic resonance imaging (MRI),  computed tomography (CT), Nuclear Medicine and Ultrasound."
+    description: "Radiographers working in general radiography at Sheffield Teaching Hospitals take high quality x-rays to provide the best quality diagnostic images for patients and their clinicians. The x-ray images are used by clinicians to identify injuries or disease. We provide services to a wide range of patients, from GP and out-patients to acutely ill emergency or intensive care patients."
+    selling-points: ""
+    services:
+      - service-name: ""
+        service-url: ""
+        service-desc: ""
+    staff:
+      - department-head: "Karen Glencross"
+        department-head-role: "Deputy Directorate Manager"
+        Section-head: "Robert Gee"
+        Section-head-role: "General Radiography Manager"
+        department-team-url: /teams/radiography
+    treatments:
+      - treatment-one: ""
+    contact:
+      - address: "Royal Hallamshire, Floor X"
+        phone: "0114 2268000"
+        contact-name: "Radiology call centre"
+        contact-email: "@sth.nhs.uk"
+    top-services:
+      - s: "Radiation Protection Assurance"
+        s-url: radiation-protection-assurance
+        s-description: "Radiation Protection Assurance, or RPA, is"
+    case-studies:
+      - cs-title: "Radiography team announced Yorkshire and North Trent Team of the Year by Society of Radiographer"
+        cs-desc: "Staff from our department were recently presented with the ‘Yorkshire and North Trent Team of the Year’ award. This award, presented by the Society of Radiographers, was held recently in the House of Commons where "
+        cs-url: "https://youtu.be/myrX_O7C8UQ"
+        cs-img: "../images/radiographer-award.png"

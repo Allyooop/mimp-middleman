@@ -22,7 +22,7 @@ service:
       conditions-url: Malformations/
     - conditions-name: "Pituitary Adenoma"
       conditions-url: pituitary-adenoma/      
-   service-team: "<p>The Radiosurgery Physics service is run by a multi-disciplinary team based at Sheffield Teaching Hospitals, led by Mr Lee Walton Section Head and Consultant Clinical Scientist. The team currently consists of:</p><ul class='list list-unstyled'><li>Section Head & Consultant Clinical Scientist: Mr Lee Walton </li><li>Principal Physicist: Mrs Anna Hampshire </li><li>Physicist: Mrs Katie Hunt </li><li>Section Chief Clinical Technologist: Mr Paul Vaughan </li><li>Chief Clinical Technologist: Miss Alison Grainger </li><li>Senior Clinical Technologist: Mrs Angela  Huntington </li><li>Senior Clinical Technologist: Miss Shona McDonald </li></ul>"
+   service-team: "Mr Lee Walton, Section Head & Consultant Clinical Scientist"
    address: "Royal Hallamshire Hospital, Glossop Road, Sheffield, S10 2JF"
    contact-details:
     - location: "Royal Hallamshire"
