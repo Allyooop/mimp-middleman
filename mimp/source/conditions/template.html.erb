@@ -23,8 +23,9 @@
         <section class="well branded-well">
           <p class="lead"><%= condition['summary'] %></p>
           <p><%= condition['body'] %></p>
-          <a href="<%= condition['treatment'] %>" alt="" class="btn btn-primary">Treatment page</a>
-          <a href="<%= condition['department'] %>" alt="" class="btn btn-link">Department page</a>
+          
+          <%= link_to "Treatment page", "/conditions-treatments/#{condition['treatment-url']}.html", class: "btn btn-primary", alt: "" %>
+          <%= link_to "Treatment page", "/departments-services/#{condition['department-url']}.html", class: "btn btn-primary", alt: "" %>
           <p class="quiet">The information provided is a brief summary only.  If you are a patient attending for treatment, please read your appointment letter and patient information leaflet carefully for more detailed information.</p>
         </section>
         

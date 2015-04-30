@@ -99,6 +99,6 @@ department:
         s-description: "Radiation Protection Assurance, or RPA, is"
     case-studies:
       - cs-title: "Radiography team announced Yorkshire and North Trent Team of the Year by Society of Radiographer"
-        cs-desc: "Staff from our department were recently presented with the ‘Yorkshire and North Trent Team of the Year’ award. This award, presented by the Society of Radiographers, was held recently in the House of Commons where "
+        cs-desc: "Staff from our department were recently presented with the ‘Yorkshire and North Trent Team of the Year’ award."
         cs-url: "https://youtu.be/myrX_O7C8UQ"
         cs-img: "../images/radiographer-award.png"

@@ -10,15 +10,3 @@ condition:
     service-url: radiosurgery-physics
     department: "Medical Physics and Clinical Engineering"
     department-url: medical-physics-clinical-engineering
-    
-  - title: "placeholder"
-    slug: ""
-    summary: ""
-    body: ""
-    info-link: ""
-    treatment: ""
-    treatment-url: ""
-    service: ""
-    service-url: ""
-    department: ""
-    department-url: ""
